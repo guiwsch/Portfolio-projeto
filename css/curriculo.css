@@ -4,6 +4,10 @@ body{
     background-color: rgb(206, 207, 207);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+li{
+    padding: 7px;
+}
 nav{
     text-align: center;
 }
