@@ -107,9 +107,6 @@ nav h1{
         padding: 50px;
     }
 
-    .containers h1{
-        text-align: center;
-    }
 
     #container-habilidades{
         display: block;
@@ -122,6 +119,10 @@ nav h1{
         padding: 40px 20px 50px 20px;
     }
 
+    .titulo-span {
+        text-decoration: none;
+        font-weight: bold;
+    }
 
     
 }
