@@ -1,7 +1,7 @@
 body {
     
     color: rgb(164, 164, 162);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     text-align: center; 
     margin: 20px; 
     background: linear-gradient(to bottom, #161621, #465669);   
@@ -71,6 +71,13 @@ h2 {
     margin: 40px;
 
 }
+
+.icons-container2{
+    display: flex;
+    justify-content: center;
+}
+
+
 
 
 .navbar {
@@ -143,5 +150,12 @@ h2 {
     .icones-container{
         margin: 50px;
     }
+
+    .icons-container2 img{
+        width: 30px;
+        padding: 0px;
+        margin: 20px;
+    }
+
 
 }
