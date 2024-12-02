@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
     const button = document.getElementById('icone-botao');
-    if (button) { // Verifique se o botão existe
+    if (button) {
         button.addEventListener('click', function() {
             const navbar = document.getElementById('navbar');
-            if (navbar) { // Verifique se a navbar existe
+            if (navbar) { 
                 if (navbar.style.maxHeight) {
-                    navbar.style.maxHeight = null; // Fecha a navbar
+                    navbar.style.maxHeight = null;
                 } else {
-                    navbar.style.maxHeight = navbar.scrollHeight + "px"; // Abre a navbar
+                    navbar.style.maxHeight = navbar.scrollHeight + "px";
                 }
             }
         });
