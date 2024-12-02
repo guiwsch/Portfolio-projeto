@@ -8,64 +8,115 @@
     <link rel="stylesheet" href="/css/curriculo.css">
 </head>
 <body>
+    <a href="/paginas/index.html"><button id="button-return">Return</button></a>
+    <nav>
+        <h1 class="titulo-container" id="nome">Guilherme Weschenfelder Pires</h1>
+    </nav>
     <div class="container-header">
-        <h1>Guilherme Weschenfelder Pires</h1>
-        <img src="/images/foto1.jpg" alt="foto">
-        <h2>Estudante de *ADS*</h2>
-        <h3>Análise e desenvolvimento de sistemas</h3>
+            <img src="/images/foto perfil portfolio.jpg" alt="foto">
+                <h2>Análise e desenvolvimento de sistemas</h2>
     </div>
 
     <div class="linha-container"></div>
 
-    <div class="container-objetivos">
-        <h1>Objetivos</h1>
-        <p>Trabalhar na área de Análise e Desenvolvimento de Sistemas,adquirir
-            conhecimento e experiência em todos seus subsistemas.
-            Busco oportunidade de evoluir e crescer profissionalmente, colocar
-            em prática os aspectos abordados em sala de aula. Estou em
-            constante desenvolvimento e procuro experiências que me desafiem e transforme.</p>
+    <div class="containers" id="container-objetivos">
+        <h1 class="titulo-container">Objetivos</h1>
+            <p> Trabalhar na área de Análise e Desenvolvimento de Sistemas,adquirir
+                conhecimento e experiência em todos seus subsistemas.
+                Busco oportunidade de evoluir e crescer profissionalmente, colocar
+                em prática os aspectos abordados em sala de aula. Estou em
+                constante desenvolvimento e procuro experiências que me desafiem e transforme.</p>
     </div>
 
     <div class="linha-container"></div>
 
-    <div class="container-formacao">
-        <h1>Formação</h1>
-        <h3>isso aqui</h3>
-        <h3>isso aqui</h3>
-        <h3>isso aqui</h3>
-        <h3>isso aqui</h3>
+    <div class="containers" id="container-formacao">
+        <h1 class="titulo-container">Formações</h1>
+            <ul>
+                <li>Graduação ADS - cursando, inicio:2023 UNISUL - Universidade do Sul de Santa Catarina</li>
+                <li>Oracle</li>
+                <li>Desenvolvimento web udemy</li>
+                <li>javascript Udemy</li>
+            </ul>
+    </div>
+    
+    <div class="linha-container"></div>
+
+    <div class="containers" id="container-experiencias">
+        <h1 class="titulo-container">Experiências</h1>
+            <div class="containers-experiencias" id="experiencia3">
+                <h3>04/2024 - Até o momento : Right stakes</h3>
+                    <h4>Área de atuação: Financial Analyst</h4>
+                        <ul>
+                            <li>Gestão de operações financeiras e realização de pagamentos dentro de um ambiente corporativo internacional, utilizando exclusivamente o inglês para comunicação interna.</li>
+                            <li>Participação em atendimentos ao cliente para suporte e resolução de problemas técnicos e financeiros.</li>
+                            <li>Execução de testes em plataforma SaaS, incluindo análise detalhada de funcionalidades e fluxos de uso.</li>
+                            <li>Identificação de erros em deploys realizados pelos desenvolvedores, contribuindo para a correção e estabilidade do sistema.</li>
+                            <li>Monitoramento e análise de tentativas de manipulação na plataforma, garantindo a integridade dos processos e dados.</li>
+                        </ul>
+            </div>
+
+
+    <div class="containers-experiencias" id="experiencia2">
+        <h3>02/2023 - 04/2024 : Scherer</h3>
+            <h4>Área de atuação: Vendas internas</h4>
+                <ul>
+                    <li>Foco no atendimento auxiliando e priorizando sempre o cliente;</li>
+                    <li>Controle de notas fiscais;</li>
+                    <li>Administração das vendas e estoques no sistema;</li>
+                    <li>Migração das informações diarias para o software atual</li>
+                </ul>   
+    </div>
+
+    <div class="containers-experiencias" id="experiencia3">
+        <h3>03/2022 - 02/2023: Fulvio Santhelena</h3>
+            <h4>Área de atuação: Vendas</h4>
+                <ul>
+                    <li>Foco no atendimento auxiliando e priorizando sempre o cliente</li>
+                    <li>Negociação de preço, prazo, condições de pagamento e descontos da venda;</li>
+                    <li>Controle e organização de estoque;</li>
+                    <li>Controle de qualidade dos produtos e prazo de entrega estabelecidos</li>
+                </ul>
+        </div>
     </div>
 
     <div class="linha-container"></div>
 
-    <div class="container-experiencias"></div>
-        <div id="experiencia1">
-            <h3>02/2023 - 04/2024 : Scherer</h3>
-            <p>Área de atuação: Vendas internas
-                Foco no atendimento auxiliando e priorizando sempre o cliente;
-                Controle de notas fiscais;
-                Administração das vendas e estoques no sistema;
-                Migração das informações diarias para o software atual</p>
-        </div>
-        <div id="experiencia2">
-            <h3>03/2022 - 02/2023: Fulvio Santhelena</h3>
-            <p>Área de atuação: Vendas
-                Foco no atendimento auxiliando e priorizando sempre o cliente;
-                Negociação de preço, prazo, condições de pagamento e
-                descontos da venda;
-                Controle e organização de estoque;
-                Controle de qualidade dos produtos e prazo de entrega
-                estabelecidos</p>
-        </div>
-        <div id="experiencia3">
-            <h3>Right stakes</h3>
-            <p>Assistente administrativo</p>
+    <div class="containers" id="container-habilidades">
+        <div id="habilidades-tecnicas"><h1>Hard skills</h1>
+            <ul>
+                <li>Conhecimento de semântica HTML.</li>
+                <li>Uso de CSS moderno (Flexbox, Grid).</li>
+                <li>Criação de layouts responsivos (media queries).</li>
+                <li>Manipulação do DOM.</li>
+                <li>Conhecimento em React</li>
+                <li>Git</li>
+                <li>Familiaridade com ferramentas como Figma</li>
+                <li>Noções básicas de design responsivo e acessibilidade</li>
+                <li>VS Code</li>
+                <li>Jira & Confluence</li>
+                <li>Slack: comunicação</li>
+
+            </ul>
         </div>
 
-        <div class="linha-container"></div>
+        <div id="habilidades-interpessoais">
+            <h1>Soft skills</h1>
+            <ul>
+                <li>Experiência em Metodologias Ágeis</li>
+                <li>Comunicação e Colaboração</li>
+                <li>Adaptabilidade</li>
+                <li>Resolução de Problemas</li>
+                <li>Gerenciamento de Tempo</li>
+                <li>Aprendizado Contínuo</li>
+                <li>liderança em apresentação de dailys, sprints</li>
+            </ul>
+        </div>
 
-        <div class="buttons">
-            <a href="index.html"><button id="button-return">Voltar</button></a>
-         </div>
+    
+    </div>
+    <div class="buttons">
+        <a href="index.html"><button id="button-return">Return</button></a>
+    </div>
 </body>
 </html>

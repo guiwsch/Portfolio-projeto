@@ -1,12 +1,15 @@
-body {
-    
-    color: rgb(164, 164, 162);
-    font-family: "PT Serif", serif;
-    text-align: center; 
-    margin: 20px; 
-    background: linear-gradient(to bottom, #161621, #465669);   
-}
 
+body{
+    margin: 0px 400px 100px 400px;
+    background-color: rgb(206, 207, 207);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    text-align: center;
+}
+nav h1{
+    margin: 0;
+}
 .container-header {
     display: flex;
     margin: 20px 0;
@@ -16,9 +19,10 @@ body {
 }
 .container-header img{
     
-    height: 250px;
+    height: 310px;
     width: auto;
-    border-radius: 120px;
+    border-radius: 50%;
+    border: 5px solid black;
 }
 
 .linha-container{
@@ -30,11 +34,81 @@ body {
 
 #button-return{
     border-bottom-style: none;
-    margin-top: 50px;
-    width: 100% ;
+    width: 100px ;
     height: 40px;
-    background-color: rgb(204, 201, 201);
-    color: black;
+    background-color: rgb(56, 56, 56);
+    color: white;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
+}
+
+
+/* containers que possuem informações */
+.containers{
+    padding: 50px 100px 100px 100px;
+    background-color: rgb(181, 181, 181);
+    border-radius: 10px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+/* containers de cada experiência*/
+
+.containers-experiencias{
+    padding: 20px 0px;
+    gap: 10px;
+}
+
+#container-habilidades{
+    display: flex;
+    gap: 15px;
+}
+
+.titulo-container{
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+
+/* responsividade para celular */
+@media (max-width: 768px){
+    
+    body{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #button-return{
+        border-radius: 0px;
+        color: black;
+        align-items: center;
+        width: 100%;
+        background-color: transparent
+    }
+
+    img{
+        width: 200px;
+        height: auto;
+    }
+
+    .containers{
+        width: 250px;
+        padding: 50px;
+    }
+
+    .containers h1{
+        text-align: center;
+    }
+
+    #container-habilidades{
+        display: block;
+    }
+
+
+
+    
 }
